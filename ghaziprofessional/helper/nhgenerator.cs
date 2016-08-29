@@ -33,7 +33,7 @@ namespace WebApplication3.helper
                     );
 
                     //NHConfig.AddAssembly("JuneBatchMVC");
-                    NHConfig.AddAssembly(typeof(Student).Assembly);
+                    NHConfig.AddAssembly(typeof(ghaziprofessional.Student).Assembly);
 
                     //when u get an error
                     NHConfig.CurrentSessionContext<WebSessionContext>();

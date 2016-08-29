@@ -3,7 +3,7 @@ using System.Text;
 using System.Collections.Generic;
 
 
-namespace WebApplication3 {
+namespace ghaziprofessional {
     
     public class Teacher {
         public virtual int Id { get; set; }

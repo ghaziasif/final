@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<hibernate-mapping assembly="WebApplication3" namespace="WebApplication3" xmlns="urn:nhibernate-mapping-2.2">
+<hibernate-mapping assembly="ghaziprofessional" namespace="ghaziprofessional" xmlns="urn:nhibernate-mapping-2.2">
   <class name="Student" table="student" lazy="true" >
     <id name="Id" column="id" />
     <property name="Name">
