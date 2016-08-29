@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="WebApplication3" namespace="WebApplication3" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Teacher" table="teacher" lazy="true" >
+    <id name="Id" column="id" />
+    <property name="Name">
+      <column name="name" sql-type="varchar(45)" not-null="false" />
+    </property>
+    <property name="Class">
+      <column name="class" sql-type="varchar(45)" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

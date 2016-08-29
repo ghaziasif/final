@@ -124,6 +124,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="helper\nhgenerator.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +135,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <EmbeddedResource Include="mapping\Student.hbm.xml" />
+    <EmbeddedResource Include="mapping\Teacher.hbm.xml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -165,7 +169,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
